@@ -1,0 +1,61 @@
+---
+import Container from "./Container.astro";
+---
+
+<div class="relative">
+  <div
+    aria-hidden="true"
+    class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-40 dark:opacity-20 -z-10 pointer-events-none">
+    <div
+      class="blur-[106px] h-56 bg-gradient-to-br from-purple-600 to-purple-400 dark:from-blue-700">
+    </div>
+    <div
+      class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600">
+    </div>
+  </div>
+
+  <section class="py-24 px-10 flex items-center min-h-screen justify-center">
+    <div class="mx-auto max-w-[43rem]">
+      <div class="text-center">
+        <p
+          class="text-lg font-medium leading-8 text-indigo-600/95 dark:text-indigo-500">
+          Introducing Flap UI
+        </p>
+        <h1
+          class="mt-4 text-3xl lg:text-[3.5rem] font-bold lg:leading-[4rem] tracking-tight text-black dark:text-white">
+          The Ultimate Tailwind CSS Component Library
+        </h1>
+        <p class="mt-3 lg:text-lg leading-relaxed text-slate-400">
+          Take off with Flap UI. Build beautiful and responsive websites
+          effortlessly with our open-source pre-built components made for HTML,
+          Astro & React.
+        </p>
+      </div>
+
+      <div
+        class="mt-6 flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a
+          href="https://github.com/web3templates/flapui"
+          target="_blank"
+          class="transform rounded-md bg-indigo-600/95 px-5 py-3 font-medium text-white transition-colors hover:bg-indigo-700">
+          Get Started Now
+        </a>
+        <a
+          href="https://web3components.dev"
+          target="_blank"
+          class="transform rounded-md border border-slate-300 px-5 py-3 font-medium text-slate-900 transition-colors hover:bg-slate-50 dark:text-slate-300 dark:border-slate-500 dark:hover:bg-black/50">
+          Explore Blocks
+        </a>
+      </div>
+      <div class="text-center mt-5">
+        <small class="mt-4 text-slate-400">
+          You are looking at an early preview. Please star us on <a
+            href="https://github.com/web3templates/flapui"
+            target="_blank"
+            class="text-indigo-500">github</a
+          > for updates.
+        </small>
+      </div>
+    </div>
+  </section>
+</div>
